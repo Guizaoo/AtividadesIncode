@@ -2,6 +2,7 @@ package Atividade.OperadoresLogicos;
 
 public class Execicio04 {
     public static void main(String[] args) {
+        //guilhere
         //Declarar três variáveis boolean para verificar
         // se um número é positivo (num > 0), negativo (num < 0) ou zero (num == 0), exibindo os valores.
         int num1 = 10;
