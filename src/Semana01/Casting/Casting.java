@@ -1,4 +1,4 @@
-package Atividade.Casting;
+package Semana01.Casting;
 
 public class Casting {
     public static void main(String[] args) {

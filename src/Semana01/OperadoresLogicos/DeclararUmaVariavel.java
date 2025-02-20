@@ -1,4 +1,4 @@
-package Atividade.OperadoresLogicos;
+package Semana01.OperadoresLogicos;
 
 public class DeclararUmaVariavel {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Atividade.OperadoresAritméticos;
+package Semana01.OperadoresAritméticos;
 
 import java.util.Scanner;
 

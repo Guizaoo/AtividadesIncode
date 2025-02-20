@@ -1,4 +1,4 @@
-package Atividade.TiposPrimitivas;
+package Semana01.TiposPrimitivas;
 
 public class DeclararumDouble {
     public static void main(String[] args) {

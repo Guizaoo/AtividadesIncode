@@ -1,4 +1,4 @@
-package Atividade.OperadoresAritméticos;
+package Semana01.OperadoresAritméticos;
 
 public class OperadoresAritméticos {
     public static void main(String[] args) {

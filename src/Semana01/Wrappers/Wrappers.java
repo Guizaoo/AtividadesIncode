@@ -1,4 +1,4 @@
-package Atividade.Wrappers;
+package Semana01.Wrappers;
 
 public class Wrappers {
     public static void main(String[] args) {

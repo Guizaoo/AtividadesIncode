@@ -1,4 +1,4 @@
-package Atividade.VariáveiseConstantes;
+package Semana01.VariáveiseConstantes;
 
 public class Main {
     public static void main(String[] args) {

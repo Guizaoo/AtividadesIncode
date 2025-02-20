@@ -1,4 +1,4 @@
-package Atividade.TiposPrimitivas;
+package Semana01.TiposPrimitivas;
 
 public class DeclararVariáveis {
     //Declarar variáveis dos

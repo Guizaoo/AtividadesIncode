@@ -1,4 +1,4 @@
-package Atividade.VariáveiseConstantes;
+package Semana01.VariáveiseConstantes;
 
 public class Constante {
     //Declarar uma constante do tipo double para armazenar o valor de PI (3.14159) e exibir seus valores.
