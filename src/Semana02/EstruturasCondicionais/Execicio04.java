@@ -6,23 +6,31 @@ public class Execicio04{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Senha certa
-        String senhaCorreta = "guizao";
+        int tentativas = 5; //
+        boolean loginSucesso = false;
 
-        // armazenamento
-        String senhaInformada = "";
+        String usuarioCorreto = "Guilherme";
+        String senhaCorreta = "guizu123";
 
-        // .equals comparacoes de strings
-        while(!senhaInformada.equals(senhaCorreta)) {
-            System.out.print("Digite a senha: ");
-            senhaInformada = scanner.nextLine();
+        while (tentativas > 0 && !loginSucesso) {
+            System.out.print("Digite seu usuário: ");
+            String usuario = scanner.nextLine();
 
-            if (!senhaInformada.equals(senhaCorreta)) {
-                System.out.println("Senha incorreta. Tente novamente.");
+            System.out.print("Digite sua senha: ");
+            String senha = scanner.nextLine();
+
+            if (usuario.equals(usuarioCorreto) && senha.equals(senhaCorreta)) {
+                loginSucesso = true;
+                System.out.println("Login realizado com sucesso!");
+            } else {
+                tentativas--;
+                System.out.println("Usuário ou senha incorretos! Tentativas restantes: " + tentativas);
             }
         }
 
-        System.out.println("Senha correta! Acesso concedido.");
+        if (!loginSucesso) {
+            System.out.println("Voce tentou varias vezes. Conta bloqueada!");
+        }
 
         scanner.close();
     }
