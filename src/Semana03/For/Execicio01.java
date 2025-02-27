@@ -1,18 +1,22 @@
 package Semana03.For;
 
 import javax.swing.*;
+import java.util.Scanner;
 
 public class Execicio01 {
     public static void main(String[] args) {
+        //Solicitar ao usuário um número e exibir todos
+        // os números de 1 até o número informado utilizando um laço for.
 
+        Scanner scanner = new Scanner(System.in);
 
-            String [] objetos = {"garrafa","copo","litro"};
+        System.out.print("Digite um numero: ");
+        int numero = scanner.nextInt();
 
-            for (int tam = objetos.length - 1; tam >= 0; tam--){
+        scanner.close();
 
-                System.out.print(objetos[tam] + " ");
-
-            }
-
+        for (int i = 0; i <= numero; i++) {
+            System.out.println("interacao: " + i);
         }
+    }
 }
